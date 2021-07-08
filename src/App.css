@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+*{
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 768px) {
+  [class*="col-"]{
+    width: 100%;
+  }
+}
