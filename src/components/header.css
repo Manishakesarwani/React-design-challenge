@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Head{
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.List{
+    list-style-type: none;
+    display: flex;   
+}
+.List > li{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+ul li:hover{
+    border-bottom: 2px solid orangered;
+    cursor: pointer;
+}
+.challenge{
+    font-weight: bold;
+}

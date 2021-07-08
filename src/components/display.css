@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.disp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(109, 107, 107);
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px rgb(180, 180, 180);
+    width: 60%;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.text{
+    padding-left: 60px;
+}
+img{
+    margin-left: 45px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.txt{
+    color: orangered;
+    text-decoration-line: underline;
+    font-size: 40px;
+}
+#addr{
+    font-size: 20px;
+}
+#gender{
+    color: grey;
+}

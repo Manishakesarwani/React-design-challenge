@@ -1,0 +1,30 @@
+.PersonInfo{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(85, 84, 84);
+    border-radius: 10px;
+    height: 65px;
+    width: 20%;
+    margin-left: 40px;
+    justify-items: center;
+    align-items: center;
+    font-size: 15px;
+    box-shadow: 3px 3px rgb(163, 161, 161);
+}
+.PersonInfo:hover{
+    background-color: rgb(175, 106, 240);
+    cursor: pointer;
+}
+
+
+.PersonInfo:active{
+    transform: scale(0.98);
+    box-shadow: 5px 5px rgb(163, 161, 161);
+}
+
+#gender{
+    color: rgb(160, 158, 158);
+}
+#email{
+    color: orangered;
+}
